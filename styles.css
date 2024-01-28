@@ -1,0 +1,30 @@
+body {
+    background-color: #223d3c !important;
+    padding: 0;
+    margin: 0;
+}
+
+.customWidth {
+    max-height: calc(100vh - 25px) !important;
+}
+
+.customWidth > .img > img {
+    cursor: pointer;
+}
+
+.customWidth::-webkit-scrollbar {
+    border: none;
+}
+
+.largeImg>img {
+    max-height: calc(100vh - 30px) !important;
+}
+
+.accueilImage,
+.accueilCodePin{
+    height: 100vh;
+}
+
+.accueilCodePin>div {
+    height: calc(100vh - 50px);
+}
